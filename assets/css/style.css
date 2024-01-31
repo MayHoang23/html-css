@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ======Common====== */
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    --height: 60px;
+
+    display: inline-block;
+    padding: 0 20px;
+    min-width: 186px;
+    height: var(--height);
+    font-size: 1.6rem;
+    text-align: center;
+    border: 1px solid #2ac9bf;
+    line-height: var(--height);
+    color: #fff;
+    background: #2ac9bf;
+    border-radius: 14px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #2ac9bf;
+}
+
+/* ======Header====== */
+.header {
+    margin-top: 57px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link {
+    padding: 4px 19.5px;
+    color: #2f3a3b;
+    font-size: 1.6rem;
+}
+
+.navbar__link:hover {
+    color: #2f3a3b;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.action__signin {
+    margin-right: 24px;
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+.action__signup {
+    --height: 48px;
+    min-width: 108px;
+    border-radius: 6px;
+}
+
+/* ===Hero==== */
+.hero {
+    margin-top: 50px;
+    padding-bottom: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content {
+    max-width: 39%;
+}
+
+.hero__slogan {
+    color: #767e7e;
+    font-size: 1.4rem;
+}
+
+.hero__heading {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.hero__desc {
+    margin-top: 46px;
+    max-width: 374px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    line-height: 1.78;
+}
+
+.hero__action {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__action-stop {
+    margin-left: 46px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+
+.hero__action-stop:hover {
+    background: #ddd;
+}
+
+.hero__media {
+    display: inline-block;
+    min-width: 641px;
+    height: 631px;
+    position: relative;
+}
+
+.hero__img {
+    position: absolute;
+    right: 0;
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero__Courses {
+    position: absolute;
+    left: -40px;
+    top: 149px;
+}
+
+.hero__Schedules {
+    position: absolute;
+    left: -65px;
+    bottom: -46px;
+}
+
+.hero__students {
+    position: absolute;
+    right: 0;
+    bottom: -41px;
+}
